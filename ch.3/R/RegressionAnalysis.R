@@ -127,7 +127,6 @@ colnames(continuousDF)
 logit.fit <- glm(Engaged ~ ., data = continuousDF, family = binomial)
 summary(logit.fit)
 
-
 ## 6.2. Categorical Variables ##
 
 # a. Education
